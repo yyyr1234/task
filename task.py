@@ -70,7 +70,7 @@ if user_input == '0':
 elif user_input == '1':
     # Plot the occupancy over the day
     fig, ax = plt.subplots(figsize=(15, 8))
-    ax.scatter(time_range, power_demand, label="Power Demand", color='blue', s=1)
+    ax.scatter(time_range, power_demand, label="Power Demand", color='green', s=1)
     ax.set_title('Charging Station Power Demand in kW')
     
     # Set the y-axis limit to the total number of charging points*charging power
